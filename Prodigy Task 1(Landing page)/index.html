@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div class="logo">InFiPhones</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="home">
+        <video class="video-bg" autoplay muted loop>
+            <source src="videoplayback.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h1>Welcome to InfiPhones</h1>
+        <p>Explore the Boundless World of Smartphones.</p>
+        
+        <a href="#shop" class="shop1">Buy Now</a>
+    </div>
+
+    <div id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Infiphones – your ultimate destination for cutting-edge mobile technology. 
+            At Infiphones, we believe in the power of connection and innovation. Our mission is to bring you the latest in mobile devices, offering a seamless blend of style, performance, and functionality. Whether you're a tech enthusiast, a mobile gamer, or someone who simply needs a reliable phone for everyday use, 
+            we’ve got something for everyone.</p>
+    </div>
+
+    <div id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Wide Mobile Selection:</strong> Explore our extensive catalog of smartphones, ranging from high-end flagship models to budget-friendly options. </li>
+            <li><strong>Expert Consultation: </strong> team of tech experts is available to guide you, helping you find the perfect device that suits your needs and preferences.</li>
+            <li><strong>Pricing: </strong>Get the best value for your money with our competitive pricing on the latest smartphones. </li>
+            <li><strong>Warranty & Support: </strong>Every phone purchase comes with a comprehensive warranty. Our dedicated support team is available to assist with any issues.</li>
+           
+        </ul>
+    </div>
+
+    <div id="shop">
+        <h2>Buy Now</h2>
+        <p class="headline">Explore our latest collection of branded phones.</p>
+        <div class="phonegallery">
+            <div class="shopitem">
+                <img src="ph1.png" >
+                <p class="pname">Samsung Galaxy </p>
+                <p class="price">$37999</p>
+            </div>
+            <div class="shopitem">
+                <img src="ph2.png">
+                <p class="pname">Apple Iphone 13</p>
+                <p class="price">$59000</p>
+            </div>
+            <div class="shopitem">
+                <img src="ph3.png">
+                <p class="pname">Redmi 13C</p>
+                <p class="price">$11999</p>
+            </div>
+            <div class="shopitem">
+                <img src="ph4.png">
+                <p class="pname">Oneplus 11</p>
+                <p class="price">$36799</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for any inquiries.</p>
+        <form id="contactForm" class="contactform">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        
+            <button type="submit">Send Message</button>
+        </form>
+        
+       
+        <div id="formMessage" class="form-message"></div>
+        
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
